@@ -6,17 +6,17 @@
 ~function () {
     var step = 0, divList = null;
     var swp = new Swiper(".swiper-container", {
-        loop: false,
-        direction: 'vertical',
-        onSlidePrevEnd: function () {
-            step--;
-            change();
-            if (step === 0) {
-                step = 5;
-            }
-        },
-        onSlideNextEnd: function () {
-            step++;
+            loop: false,
+                direction: 'vertical',
+                onSlidePrevEnd: function () {
+                step--;
+                change();
+                if (step === 0) {
+                    step = 5;
+                }
+            },
+            onSlideNextEnd: function () {
+                step++;
             change();
             if (step === 6) {
                 step = 1;

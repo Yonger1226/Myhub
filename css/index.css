@@ -737,11 +737,11 @@ html, body {
 .pageFive ul li p:nth-child(2) {
     position: absolute;
     left: 16%;
-    width: 1.4rem;
+    width: 2.4rem;
     height: .4rem;
     line-height: .4rem;
     font-family: weiruanyahei;
-    font-size: .21rem;
+    font-size: .16rem;
     color: #fff;
 }
 
@@ -755,77 +755,45 @@ html, body {
 .pageFive ul li p:nth-child(4) {
     position: absolute;
     left: 50%;
-    width: 1.4rem;
+    width: 2.4rem;
     height: .4rem;
     line-height: .4rem;
     font-family: weiruanyahei;
-    font-size: .21rem;
+    font-size: .16rem;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
 .pageFive ul li:nth-child(1) img:nth-child(1) {
-    top: 2.7rem;
-}
-
-.pageFive ul li:nth-child(1) p:nth-child(2) {
-    top: 2.65rem;
-}
-
-.pageFive ul li:nth-child(1) img:nth-child(3) {
-    top: 2.6rem;
-}
-
-.pageFive ul li:nth-child(1) p:nth-child(4) {
-    top: 2.65rem;
-}
-
-.pageFive ul li:nth-child(2) img:nth-child(1) {
     top: 3.7rem;
 }
 
-.pageFive ul li:nth-child(2) p:nth-child(2) {
+.pageFive ul li:nth-child(1) p:nth-child(2) {
     top: 3.65rem;
 }
 
-.pageFive ul li:nth-child(2) img:nth-child(3) {
+.pageFive ul li:nth-child(1) img:nth-child(3) {
     top: 3.6rem;
 }
 
-.pageFive ul li:nth-child(2) p:nth-child(4) {
+.pageFive ul li:nth-child(1) p:nth-child(4) {
     top: 3.65rem;
 }
 
-.pageFive ul li:nth-child(3) img:nth-child(1) {
+.pageFive ul li:nth-child(2) img:nth-child(1) {
     top: 4.7rem;
 }
 
-.pageFive ul li:nth-child(3) p:nth-child(2) {
+.pageFive ul li:nth-child(2) p:nth-child(2) {
     top: 4.65rem;
 }
 
-.pageFive ul li:nth-child(3) img:nth-child(3) {
+.pageFive ul li:nth-child(2) img:nth-child(3) {
     top: 4.6rem;
 }
 
-.pageFive ul li:nth-child(3) p:nth-child(4) {
+.pageFive ul li:nth-child(2) p:nth-child(4) {
     top: 4.65rem;
-}
-
-.pageFive ul li:nth-child(4) img:nth-child(1) {
-    top: 5.7rem;
-}
-
-.pageFive ul li:nth-child(4) p:nth-child(2) {
-    top: 5.65rem;
-}
-
-.pageFive ul li:nth-child(4) img:nth-child(3) {
-    top: 5.6rem;
-}
-
-.pageFive ul li:nth-child(4) p:nth-child(4) {
-    top: 5.65rem;
 }
 
 #page5 img:nth-child(1) {
@@ -888,42 +856,3 @@ html, body {
     animation: fadeIn 1.5s ease 2s 1 both;
 }
 
-#page5 ul li:nth-child(3) img:nth-child(1) {
-    -webkit-animation: fadeInLeft 1s ease 1.4s 1 both;
-    animation: fadeInLeft 1s ease 1.4s 1 both;
-}
-
-#page5 ul li:nth-child(3) p:nth-child(2) {
-    -webkit-animation: zoomIn 1s ease 1.6s 1 both;
-    animation: zoomIn 1s ease 1.6s 1 both;
-}
-
-#page5 ul li:nth-child(3) img:nth-child(3) {
-    -webkit-animation: fadeInRight 1s ease 1.8s 1 both;
-    animation: fadeInRight 1s ease 1.8s 1 both;
-}
-
-#page5 ul li:nth-child(3) p:nth-child(4) {
-    -webkit-animation: fadeIn 1.5s ease 2.2s 1 both;
-    animation: fadeIn 1.5s ease 2.2s 1 both;
-}
-
-#page5 ul li:nth-child(4) img:nth-child(1) {
-    -webkit-animation: fadeInLeft 1s ease 1.6s 1 both;
-    animation: fadeInLeft 1s ease 1.6s 1 both;
-}
-
-#page5 ul li:nth-child(4) p:nth-child(2) {
-    -webkit-animation: zoomIn 1s ease 1.8s 1 both;
-    animation: zoomIn 1s ease 1.8s 1 both;
-}
-
-#page5 ul li:nth-child(4) img:nth-child(3) {
-    -webkit-animation: fadeInRight 1s ease 2s 1 both;
-    animation: fadeInRight 1s ease 2s 1 both;
-}
-
-#page5 ul li:nth-child(4) p:nth-child(4) {
-    -webkit-animation: fadeIn 1.5s ease 2.4s 1 both;
-    animation: fadeIn 1.5s ease 2.4s 1 both;
-}
